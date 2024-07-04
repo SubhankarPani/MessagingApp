@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:messaging_app/pages/home.dart';
 import 'package:messaging_app/pages/signin.dart';
 import 'package:messaging_app/pages/signup.dart';
+import 'package:messaging_app/pages/chatpage.dart';
 
 void main() {
   runApp(const MyApp());
@@ -35,7 +36,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: Home(),
+      home: Chatpage(),
     );
   }
 }
